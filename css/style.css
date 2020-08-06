@@ -20,6 +20,52 @@ section {
     padding-bottom: 40px;
 }
 
+.mini-container {
+    width: 900px;
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-grey {
+    color: #666;
+}
+
+.about-people .ceo-container {
+    padding: 40px 0 100px;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.five {
+    flex-basis: 39.3333333333%;
+    width: 39.3333333333%;
+}
+
+.seven {
+    flex-basis: 56.6666666667%;
+    width: 56.6666666667%;
+}
+
+.founder-image {
+    height: 295px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.about-people .team-container h5, .about-people .ceo-container h5 {
+    margin-bottom: 0;
+}
+.about-people .team-container .text-grey, .about-people .ceo-container .text-grey {
+    font-size: .9rem;
+}
+
 footer {
     background-color: #254180;
     background-size: cover;
@@ -39,8 +85,6 @@ body>section#homepage-header {
 body>section#homepage-header .scrolled {
     z-index: 99;
     height: 80px;
-    /*background: rgba(0, 0, 0, .8);
-    opacity: .8;*/
     padding-top: 0px;
     padding-right: 30px;
     padding-left: 10px;
@@ -53,39 +97,6 @@ body>section#homepage-header .scrolled {
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,0.91) 47%, rgba(237,237,237,0.8) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );   
 }
-
-/*header#main-header {
-    padding-top: 180px;
-}
-
-header#main-header h1 {
-   /* font-size: 55px;
-   margin-left: 185px;
-       opacity: 0.9;
-   
-
-    color: #fff;
-    
-}
-
-header#main-header p {
-    margin-bottom: 30px;
-    font-weight: 300;
-    padding: 0 5px;
-}
-
-header>div#btn-main-header {
-    margin-left: 230px;
-    margin-top: 91px;
-}
-
-header#main-header p:hover {
-    opacity: .9199;
-}
-
-#btn-main-header {
-    text-align: center;
-}*/
 
 .banner-text {
     text-align: center;
@@ -125,9 +136,17 @@ nav .logo {
     padding-right: 40px;
 }
 
+nav a {
+    color: #e74c3c;
+}
+
 nav .logo img {
     transition: .8s;
-    max-height: 10rem;
+    max-height: 3rem;
+}
+nav .logo img:hover {
+    max-height: 4.5rem;
+    transform: rotate(360deg);
 }
 
 nav ul {
@@ -224,6 +243,11 @@ div#nav-fp {
     top: 330px;
     width: 20%;
 }*/
+
+#bio > div > div > div.col-sm-1 > div {
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
 
 section.section-bg {
     width: 100%;
